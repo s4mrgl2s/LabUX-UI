@@ -1,0 +1,183 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+
+    <!-- Hace que la página se adapte correctamente a celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Turismo Toronto - Sitio de Información Turística</title>
+
+    <meta name="description" content="Descubre qué hacer en Toronto. Conoce sus lugares turísticos, cultura, gastronomía, barrios, mercados y principales atractivos turísticos.">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Turismo Toronto - Sitio de Información Turística</title>
+        <meta name="description" content="Descubrí qué hacer en Toronto. Conocé sus lugares turísticos, cultura, gastronomía, barrios, mercados y principales atractivos turísticos.">
+        <meta name="robots" content="index, follow">
+    </head>
+
+    <body>
+
+        <!-- Cabecera principal del sitio -->
+        <header>
+            <!-- Logo del sitio 
+            href-> la dirección a donde voy al dar clic  
+            -->
+            <a href="index.html" aria-label="Ir a la página de inicio de Turismo Toronto">
+                <img src="assets/toronto core.png" alt="Logotipo de Turismo Toronto" style="width: 180px; height: auto;"> 
+            </a>
+
+            <!-- Navegador principal -->
+            <nav role="navigation" aria-label="Menu principal">
+                <a href="">Qué hacer</a>
+                <a href="">Antes de llegar</a>
+                <a href="">Información</a>
+                <a href="">Contacto</a>
+            </nav>
+
+        </header>
+
+        <main role="main">
+
+            <h1>Portal de Turismo de Toronto</h1>
+
+            <!-- Actividades destacadas-->
+            <section>
+                <h2>Actividades destacadas en la ciudad</h2>
+                
+                <div>
+
+                    <!-- tarjeta -->
+                    <article role="article">
+                        <img src="assets/caption.jpg" style="width: 800px; height: auto;" alt="Vista panorámica de Toronto, Canadá, con edificios modernos, espacios verdes y el paisaje urbano de la ciudad.">
+                        <h3>Descubre la ciudad de Toronto</h3>
+                        <p>Recorre los principales atractivos de Toronto, desde la emblemática CN Tower hasta sus parques, calles y barrios llenos de vida.</p>
+                        <a href="" aria-label="Ver información sobre los principales atractivos de Toronto">ver más</a>
+                    </article>
+
+                    <!-- tarjeta -->
+                    <article role="article">
+                        <img src="assets/barrios.jpg" style="width: 800px; height: auto;" alt="Calle del centro de Toronto con edificios históricos, comercios, restaurantes y visitantes.">
+                        <h3>Explora los barrios de Toronto</h3>
+                        <p>Conocé barrios como Kensington Market, Distillery District y Yorkville, cada uno con su propia historia, arquitectura y ambiente.</p>
+                        <a href="" aria-label="Ver información sobre los barrios de Toronto">ver más</a>
+                    </article>
+
+                    <!-- tarjeta -->
+                    <article role="article">
+                        <img src="assets/Un-dia-es-las-islas-de-Toronto.jpg" alt="Paisaje urbano de Toronto junto al lago Ontario y sus principales edificios.">
+                        <h3>Aventura y naturaleza</h3>
+                        <p>Disfrutá de los parques, las islas de Toronto y las actividades al aire libre junto al lago Ontario, ideales para conocer otro lado de la ciudad.</p>
+                        <a href="" aria-label="Ver información sobre las actividades y naturaleza de Toronto">ver más</a>
+                    </article>
+
+
+                </div>
+
+            </section>
+            <!-- Fin de actividades destacadas-->
+
+            <!-- Contenido Multimedia -->
+            <section>
+                <h2>Experiencia en Toronto</h2>
+                <div>
+                    <video controls autoplay loop width="1600" height="900" aria-label="Video sobre la ciudad y los principales atractivos turísticos de Toronto">
+                        <source src="assets/toronto.video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </section>
+            <!-- Fin de Contenido Multimedia -->
+
+
+            <!-- Contenidos Destacados -->
+            <section>
+                <h2>Destacados de la Semana</h2>
+                <div>
+                    
+                    <div>
+
+                        <!-- Tarjeta Destacada 1 -->
+                        <article role="article">
+                            <img src="assets/tower.jpg" alt="Vista panorámica de Toronto y la CN Tower" width="400" height="250">
+                            <h3>La impresionante CN Tower</h3>
+                            <a href="" aria-label="Ver más sobre la CN Tower">Ver Más</a>
+                        </article>
+
+                        <!-- Tarjeta Destacada 2 -->
+                        <article role="article">
+                            <img src="assets/toronto coooore.jpeg" alt="Edificios históricos y calles del Distillery District de Toronto" width="400" height="250">
+                            <h3>Historia y cultura de Toronto</h3>
+                            <a href="" aria-label="Ver más sobre la historia y cultura de Toronto">Ver Más</a>
+                        </article>
+
+                        <!-- Tarjeta Destacada 3 -->
+                        <article role="article">
+                            <img src="assets/miradorjpg.webp" alt="Vista panorámica del horizonte de Toronto desde un mirador" width="400" height="250">
+                            <h3>Los mejores miradores de Toronto</h3>
+                            <a href="" aria-label="Ver más sobre los miradores de Toronto">Ver Más</a>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <h2 id="titulo-mapa">Ubicación y Centros de Atención al Turista</h2>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps?q=Toronto,Canada&output=embed"
+                    width="100%"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Mapa interactivo de Toronto, Canadá">
+                </iframe>
+            </div>
+
+        </main>
+
+
+        <div class="footer-brand">
+            <h2>TORONTO</h2>
+            <p>Turismo y experiencias en Toronto, Canadá</p>
+        </div>
+
+        <div>
+
+            <nav>
+                <h3 id="footer-prestadores">Servicios turísticos</h3>
+                <ul>
+                    <li><a href="">Alojamientos</a></li>
+                    <li><a href="">Excursiones</a></li>
+                    <li><a href="">Restaurantes</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+                <h3 id="footer-profesionales">Información</h3>
+                <ul>
+                    <li><a href="">Guía turística</a></li>
+                    <li><a href="">Lugares y actividades</a></li>
+                    <li><a href="">Cultura de Toronto</a></li>
+                    <li><a href="">Gastronomía</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+                <h3 id="footer-contacto">Contacto e Interacción</h3>
+                <ul>
+                    <li><a href="">Contáctate con nosotros</a></li>
+                    <li><a href="">Suscríbete al Newsletter</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </body>
+
+</html>
+```
